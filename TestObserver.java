@@ -37,7 +37,6 @@ public class TestObserver {
 	
 	@Test
 	public void testAdaugareObservator() {
-		ClientRomania roman = new ClientRomania("Stef Serban","stefserban13@stud.ase.ro","1423455423XXXX",3400);
 		System.out.println("Testez adaugarea de observer - valoare normala");
 		List<Notificare> observatori = app.getBlackBoard().getObservatori();
 		assertTrue("Nu s-a adaugat observatorul", observatori.contains(roman));
